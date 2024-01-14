@@ -78,6 +78,7 @@ ul {
     transform: scale(1.05);
 }
 
+/* Aside */
 .aside{
     width: 270px;
     position: fixed;
@@ -158,6 +159,8 @@ ul {
     font-weight: 600;
 }
 
+/* Home */
+
 .home {
     min-height: 100vh;
     display: flex;
@@ -188,6 +191,19 @@ h3.my-profession {
 .home-info p {
     margin-bottom: 70px;
     font-size: 20px;
+}
+
+.home .home-img {
+    flex: 0 0 40%;
+    max-width: 40%;
+    text-align: center;
+    position: relative;
+}
+
+.home .home-img img {
+    margin: auto;
+    border-radius: 5px;
+    height: 400px;
 }
 
 
