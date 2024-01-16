@@ -130,8 +130,8 @@ ul {
     border-radius: 50px;
 
     border: 4px solid transparent;
-    background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box,
-    linear-gradient(260deg, #d39e33, #ed5636, #633bbc) border-box;
+    background: linear-gradient(#151515, #ec1839, #222222) padding-box,
+    linear-gradient(260deg, #151515, #ec1839, #222222) border-box;
 }
 
 .aside .nav-toggler {
