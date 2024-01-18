@@ -10,7 +10,6 @@
 }
 
 body {
-    
     line-height: 1.5;
     font-size: 16px;
     font-family: 'Poppins' sans-serif;
@@ -168,7 +167,6 @@ ul {
     display: none;
     align-items: center;
     justify-content: center;
-
 }
 
 .aside .nav-toggler span {
