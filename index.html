@@ -6,7 +6,9 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <title>Personal Portfolio</title>
+    <link rel="icon" href="/images/portfolio-on-line.png" type="image/png">
+
+    <title>Portfólio Pessoal</title>
 </head>
 <body>
     <!-- Main Container Start -->
@@ -20,7 +22,7 @@
             <ul class="nav">
                 <li><a href="#home" class="active"><i class="fa fa-home"></i> Início</a></li>
                 <li><a href="#about"><i class="fa fa-user"></i> Sobre Mim</a></li>
-                <li><a href="#services"><i class="fa fa-list"></i>Habilidades</a></li>
+                <!-- <li><a href="#services"><i class="fa fa-list"></i>Habilidades</a></li> -->
                 <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Projetos</a></li>
                 <li><a href="#contact"><i class="fa fa-comments"></i>Contato</a></li>
             </ul>
@@ -29,14 +31,18 @@
 
         <div class="main-content">
             <!-- Home Section Start -->
-            <section class="home section">
+            <section class="home section" id="home">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
-                            <h3 class="hello">Olá, meu nome é <span class="name">Lucas Xavier</span></h3>
-                            <h3 class="my-profession">Eu sou <span class="typing">Desenvolvedor de Software</span></h3>
-                            <p>Eu sou um Desenvolvedor com uma experiencia de 2 anos. Minha expertise são com as linguagens Delphi, C#/.NET e muito mais...</p>
-                            <a href="#contact" class="btn hire-me">Mais Sobre Mim</a>
+                            <h3 class="hello">Olá, sou <span class="name">Lucas Xavier</span></h3>
+                            <h3 class="my-profession"> <span class="typing">Desenvolvedor de Software</span></h3>
+                            <p>
+                                Bem-vindo ao meu Portfolio! Sou um apaixonado em Desenvolvimento de Software com 2 anos de experiência, 
+                                especializado em linguagens como Delphi, C#/.NET, e mais. Transformo ideias em soluções de software robustas 
+                                e eficientes.
+                            </p>
+                            <a href="#about" class="btn hire-me">Mais Sobre Mim</a>
                         </div>
 
                         <div class="home-img padd-15">
@@ -48,7 +54,7 @@
             <!-- Home Section End -->
 
             <!-- About Section Start -->
-            <section class="about section">
+            <section class="about section" id="about">
                 <div class="container">
                     <div class="row">
                         <section class="section-title padd-15">
@@ -81,7 +87,7 @@
                                                 <p>Email : <span>lucasxavier523@gmail.com</span></p>
                                             </div>
                                             <div class="info-item padd-15">
-                                                <p>Degree : <span>CS</span></p>
+                                                <p>Formação : <span>GTI</span></p>
                                             </div>
                                             <div class="info-item padd-15">
                                                 <p>Telefone : <span>+55 1799751-7748</span></p>
@@ -96,44 +102,50 @@
                                         <div class="row">
                                             <div class="buttons padd-15">
                                                 <a href="#" class="btn">Download CV</a>
-                                                <a href="#contact" class="btn hire-me">Contrate-Me</a>
+                                                <a href="#contact" class="btn hire-me">Contate-Me</a>
                                             </div>
-                                        </div>
+                                        </div>  
                                     </div>
-                                    <!-- <div class="skills padd-15">
+                                    <div class="skills padd-15">
                                         <div class="row">
-                                            <div class="skill-item padd-15">
-                                                <h5>JS</h5>
-                                                <div class="progress">
-                                                    <div class="progress-in" style="width: 86%;"></div>
-                                                    <div class="skill-percent">86%</div>
-                                                </div>
-                                            </div>
-                                            <div class="skill-item padd-15">
-                                                <h5>PHP</h5>
-                                                <div class="progress">
-                                                    <div class="progress-in" style="width: 66%;"></div>
-                                                    <div class="skill-percent">66%</div>
-                                                </div>
-                                            </div>
                                             <div class="skill-item padd-15">
                                                 <h5>HTML</h5>
                                                 <div class="progress">
-                                                    <div class="progress-in" style="width: 96%;"></div>
-                                                    <div class="skill-percent">96%</div>
+                                                    <div class="progress-in" style="width: 80%;"></div>
+                                                    <div class="skill-percent">80%</div>
                                                 </div>
                                             </div>
                                             <div class="skill-item padd-15">
-                                                <h5>Bootstrap</h5>
+                                                <h5>CSS</h5>
                                                 <div class="progress">
-                                                    <div class="progress-in" style="width: 76%;"></div>
-                                                    <div class="skill-percent">76%</div>
+                                                    <div class="progress-in" style="width: 75%;"></div>
+                                                    <div class="skill-percent">75%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>JavaScript</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width: 65%;"></div>
+                                                    <div class="skill-percent">65%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>Delphi</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width: 80%;"></div>
+                                                    <div class="skill-percent">80%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>C#/.NET</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width: 60%;"></div>
+                                                    <div class="skill-percent">60%</div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>     
-                            </div> -->
+                                </div>
                             <div class="row">
                                 <div class="education padd-15">
                                     <h3 class="title">Educação</h3>
@@ -146,8 +158,8 @@
                                                     <h3 class="timeline-date">
                                                         <i class="fa fa-calendar"></i> 2018 - 2022
                                                     </h3>
-                                                    <h4 class="timeline-title">Curso Superior - Gestão da Tecnologia da Informação</h4>
-                                                    <p class="timeline-text">Formação em Gestão da Tecnologia da Informação, com foco em desenvolvimento de sistemas e estratégias de TI. Meu Trabalho de Conclusão de Curso (TCC) foi um projeto especializado em Paintest, explorando suas aplicações e benefícios</p>
+                                                    <h4 class="timeline-title">Graduado em Gestão da Tecnologia da Informação - FATEC Catanduva</h4>
+                                                    <p class="timeline-text">Formação em Gestão da Tecnologia da Informação na FATEC Catanduva, com foco em desenvolvimento de sistemas e estratégias de TI. Meu Trabalho de Conclusão de Curso (TCC) foi um projeto especializado em Paintest, explorando suas aplicações e benefícios</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -165,18 +177,14 @@
                                                     <h3 class="timeline-date">
                                                         <i class="fa fa-calendar"></i> 2022 - 2023
                                                     </h3>
-                                                    <h4 class="timeline-title">Integrativa</h4>
+                                                    <h4 class="timeline-title">Integrativa - (empresa com foco em gestão de processos judiciais)</h4>
                                                     <p class="timeline-text">
                                                         Desenvolvimento e manutenção de soluções de integração de sistemas utilizando a linguagem Delphi
-                                                        e bancos de dados (Firebird, SQL Server e PostgreSQL). Colaboração com equipes multidisciplinares
-                                                        para entender requisitos e implementar funcionalidades que otimizamos processos internos. Minha
-                                                        experiência inclui:
+                                                        e bancos de dados (Firebird, SQL Server e PostgreSQL). Minha experiência inclui:
                                                         Utilização da linguagem Delphi para criar aplicativos robustos e eficientes.
                                                         Habilidade com FastReport para a geração de relatórios personalizados e ricos em detalhes.
                                                         Uso do RESTRequest4D para realizar solicitações HTTP em Delphi, permitindo a comunicação
                                                         eficaz com APIs RESTful.
-                                                        Participação ativa na automação de fluxos de trabalho, resultando em maior eficiência operacional e
-                                                        na significativa redução de erros.
                                                     </p>
                                                 </div>
                                             </div>
@@ -190,23 +198,17 @@
             </section>
             <!-- About Section End -->
 
-            <!-- Services Section Start -->
-            <section class="section section">
-
-            </section>
-            <!-- Services Section End -->
-
             <!-- Portfolio Section Start -->
             <section class="portfolio section" id="portfolio">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
-                            <h2>Portfolio</h2>
+                            <h2>Projetos</h2>
                         </div>
                     </div>
                     <div class="row">
                         <div class="portfolio-heading padd-15">
-                            <h2>My Last Projects :</h2>
+                            <h2>Meus últimos Projetos :</h2>
                         </div>
                     </div>
                     <div class="row">
@@ -241,6 +243,96 @@
                         <!-- Portfolio item End -->
             </section>
             <!-- Portfolio Section End -->
+
+            <!-- Contact Section Start -->
+
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contate-me</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">Você tem alguma dúvida ?</h3>
+                    <h4 class="contact-sub-title padd-15">ESTOU AOS SEUS SERVIÇOS</h4>
+                    <div class="row">
+                        <!-- Contact info item Start -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Ligue para mim</h4>
+                            <p>+55 (017) 99751-7748</p>
+                        </div>
+                        <!-- Contact info item End -->
+
+                        <!-- Contact info item Start -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>lucasxavier523@gmail.com</p>
+                        </div>
+                        <!-- Contact info item End -->
+
+                        <!-- Contact info item Start -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                            <h4>Linkedin</h4>
+                            <a href="https://www.linkedin.com/in/lucas-xavier-89a44120b/">linkedin.com/in/lucas-xavier</a>
+                        </div>
+                        <!-- Contact info item End -->
+
+                        <!-- Contact info item Start -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa-brands fa-github"></i></div>
+                            <h4>Github</h4>
+                            <a href="https://github.com/LucasXvr">github.com/LucasXvr</a>
+                        </div>
+                        <!-- Contact info item End -->
+                    </div>
+                    <h3 class="contact-title padd-15">MANDE-ME UM EMAIL</h3>
+                    <h4 class="contact-sub-title padd-15">SOU MUITO RESPONSIVO À MENSAGEM</h4>
+                    <!-- Contact Form -->
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Nome">
+                                    </div>
+                                </div>
+
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Assunto">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="" class="form-control" id="" placeholder="Mensagem"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <button type="submit" class="btn">Enviar Mensagem</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section End -->
         </div>
     </div>
     <!-- Main Container End -->
