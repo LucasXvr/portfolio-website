@@ -9,6 +9,19 @@
     --skin-color:#ec1839;
 }
 
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #2c2c31;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #9e9ea0;
+}
+
 body {
     line-height: 1.5;
     font-size: 16px;
