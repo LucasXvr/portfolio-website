@@ -13,3 +13,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 - Git e Github
+
+## 📁 Link para o projeto 
+Fique a vontade para explorar meu portfolio a partir do link a seguir:
+https://lucasxvr.github.io/portfolio-website/
