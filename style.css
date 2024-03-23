@@ -26,6 +26,7 @@ body {
     line-height: 1.5;
     font-size: 16px;
     font-family: 'Poppins' sans-serif;
+    overflow-x: hidden;
 }
 
 * {
@@ -267,7 +268,8 @@ h3.my-profession {
 .home .home-img img {
     margin: auto;
     border-radius: 5px;
-    height: 400px;
+    height: auto;
+    max-width: 120%;
 }
 
 /* About */
@@ -622,6 +624,7 @@ h3.my-profession {
         display: block;
         margin-left: 0;
     }
+
 }
 
 @media (max-width:991px) {
