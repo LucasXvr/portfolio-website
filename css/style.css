@@ -626,7 +626,6 @@ h3.my-profession {
 }
 
 /* Responsive */
-
 @media (max-width:1199px) {
     .aside {
         display: none;
